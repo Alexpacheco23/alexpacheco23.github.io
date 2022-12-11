@@ -390,7 +390,7 @@ main .section__news .section__container  .section__news--description {
     height: auto;
     margin-left: 95%;
     border-radius: 50px;
-    transition: background 1s,color 1s;
+    transition: background-color 1s,color 1s;
     
 }
 .section__view #btn--close:hover{
@@ -414,7 +414,7 @@ main .section__news .section__container  .section__news--description {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 1%;
-    justify-content:baseline;
+    
 }
 
 @media screen and (max-width:850px){
@@ -525,15 +525,15 @@ footer .footer__container .footer__contact{
     }
     
     footer .footer__container .footer__about{
-        grid-column: 1/2;
+        grid-column: 1/end;
         
     }
     
     footer .footer__container .footer__contact{
-        grid-column: 2/3;
+        grid-column: 1/end;
     }
     footer .footer__container .footer__redes{
-        grid-column: 3/4;
+        grid-column: 1/end;
        
     }
 }

@@ -2,13 +2,10 @@
 let sectionContainer = document.querySelector(".section__container");
 let sectionPrescription = document.querySelector(".section__prescription");
 let fragment = document.createDocumentFragment();
-let parrafo = document.querySelector(".p__info");
-let btnClose = document.getElementById("btn--close");
-
 let modalBody = document.querySelector(".modal-body");
 
 
 
 
 
-export {sectionContainer,sectionPrescription,fragment,parrafo,btnClose,modalBody};
+export {sectionContainer,sectionPrescription,fragment,modalBody};
