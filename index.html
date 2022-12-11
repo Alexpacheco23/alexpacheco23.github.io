@@ -1,18 +1,182 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>portafolio</title>
-        <meta charset="utf-8">
-    </head>
 
-        <!-- <link rel="stylesheet" href="css/style.css"> -->
-        
-        
-    <body>
-        
-        <h1>Cookey</h1>
-       
-        <script src="js/animation.js" type="module"></script>   
-    </body>
+<head>
+  <title>portafolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+
+  <script src="js/controller.js" type="module"></script>
+
+</head>
+
+<body>
+  <div class="container__grid"></div>
+  <div class="container__grid">
+    <header>
+      <div class="header__title">
+        <h1>Bienvenido a Cookey</h1>
+        <div class="header__img"><img src="./img/cookikey.jpeg"></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#welcome"><i class="bi bi-house-heart"></i>Home</a></li>
+          <li><a href="#news"><i class="bi bi-newspaper"></i>Noticias</a></li>
+          <li><a href="#section__curioso"><i class="bi bi-file-text"></i>Curioso</a></li>
+          <li><a href="#prescription"><i class="bi bi-cup-hot"></i>Recetas</a> </li>
+          <li><a href="#footer"><i class="bi bi-person-rolodex"></i>Contacto</a> </li>
+
+        </ul>
+      </nav>
+
+    </header>
+    <main>
+      <!----imagenes de las noticias y un carrucel de imagenes-->
+      <section class="section__welcome" id="welcome">
+        <div class="section--description">
+          <div class="content">
+            <div class="content__gif">
+              <img src="./img/giphy.gif">
+            </div>
+            <div class="section__content--description">
+              <div class="descripcion__info">
+                <p>
+                  Las galletas "Cookey" son una nueva modalidad de galletasque te permite disfrutar
+                  cada sabor con tan solo probarlas es la trasnformacion de harina a galletasque te dejara mucho
+                  po probar.
+                </p>
+
+                <p>Galletas con o sin gluten
+                  Realiza tu pedido de los sabores deseados
+                  Emprendimiento 🇻🇪</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- <div class="section--description"></div> -->
+      </section>
+
+      <section class="section__news" id="news">
+        <div class="section__container">
+
+
+        </div>
+      </section>
+      <section class="section__prescription" id="prescription">
+
+
+      </section>
+      <!--Datos curioso-->
+      <section class="section__curioso" id="section__curioso">
+
+        <div class="container__curiosity">
+
+          <div class="description__curiosity">
+            <div class="curiosity__img"><img src="./img/curiosidad1.jpeg" alt=""></div>
+
+          </div>
+          <div class="description__curiosity">
+
+            <div class="curiosity__img"><img src="./img/curiosidad2.jpeg" alt=""></div>
+
+
+          </div>
+          <div class="description__curiosity">
+
+            <div class="curiosity__img"><img src="./img/curiosidad3.jpeg" alt=""></div>
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+      </section>
+    </main>
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="footer__container" id="footer">
+        <div class="footer__about">
+          <h3>titulo de las acerca de nosotros</h3>
+          <p>Somos una pequeña empresa dedicada hacer galletas a todos los clientes</p>
+
+
+        </div>
+
+
+        <div class="footer__contact">
+          <h5>Contacto para la empresa<h5></br>
+
+              Correo: Cookey@gmail.com
+
+
+              <!--todos los contactos a disponer
+                        facebook
+                        instagrem
+                        telegram
+                        correo
+                    -->
+        </div>
+        <div class="footer__redes">
+          <h5>Redes sociales de la empresa</h5></br>
+          Whatsapp: <a href="https://wa.me/584241773378" target="_blank">Whatsapp Cookey</a></br>
+          Instagram:<a href="https://instagram.com/cookey.vzla?igshid=YmMyMTA2M2Y=" target="_blank">cookey.vzla</a></br>
+          </p>
+
+          <!--todos los contactos a disponer
+                        facebook
+                        instagrem
+                        telegram
+                        correo
+                    -->
+        </div>
+      </div>
+
+      <!--contacto de creadores de las pagina 
+                autores de la pagina 
+                derechos de autor
+                copyright
+            -->
+
+
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/animations.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+</body>
+
 </html>
-
